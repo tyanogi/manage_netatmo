@@ -32,7 +32,7 @@ git clone https://github.com/tyanogi/manage_netatmo.git
 <br>
 
 ### <a name='2'> NETATMOのアカウント作成 </a>
-1. 下のリンクからNETATMOのアカウントを作成する.
+1. 下のリンクからNETATMOのアカウントを作成する.  
 https://auth.netatmo.com/en-US/access/signup?next_url=https%3A%2F%2Fdev.netatmo.com%2Fmyaccount
 2. 作成したアカウントでログインを行う.
 3. CREATE AN APPをクリックする.
@@ -40,7 +40,7 @@ https://auth.netatmo.com/en-US/access/signup?next_url=https%3A%2F%2Fdev.netatmo.
 <br><br>
 
 ### <a name='3'> ThingSpeakのアカウント作成 </a>
-1. 下のリンクからThingSpeakのアカウントを作成する.
+1. 下のリンクからThingSpeakのアカウントを作成する.  
 https://thingspeak.com/users/sign_up
 2. 作成したアカウントでログインする.
 3. New Channelをクリックする.
@@ -50,7 +50,7 @@ https://thingspeak.com/users/sign_up
    Field3にPressureを入力する.  
    Field4にCO2を入力する.
    ##### 下記はイメージ図  
-   ![pic1](/Users/tyanogi/git/manage_netatmo/pic1.png)
+   ![pic1](./pic1.png)
    <br><br>
 5. SaveChannelを押して保存.
 <br><br>
@@ -70,7 +70,7 @@ https://thingspeak.com/users/sign_up
 4. Write API KEYのKeyをsuthinfo.pyのself.apikeyに入力する.
 
 ##### 下記はイメージ図
-![pic2](/Users/tyanogi/git/manage_netatmo/auth_sample.png)
+![pic2](./pic2.png)
 
 ##### <span style="color: red; "> 注 : ２回目以降, プログラムを実行する場合は下記の操作だけで良い </span>
 ```
