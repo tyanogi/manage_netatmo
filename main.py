@@ -5,6 +5,12 @@ import lnetatmo
 import urllib.request
 import authinfo
 
+def main():
+    info = my_authinfo.set()
+    params = getinfo(info.authorization)
+    res = upload(params, info.apikey)
+    print(res)
+
 # NETATMOの情報を取得
 def getinfo(authorization):
 
@@ -49,9 +55,6 @@ def upload(params, apikey):
 
     return "ThingSpeak Response: " + str(html)
 
-if __name__=='__main__':
-    info = my_authinfo.set()
-    params = getinfo(info.authorization)
-    res = upload(params, info.apikey)
-    print(res)
+if __name__ == '__main__':
+    main()
 
